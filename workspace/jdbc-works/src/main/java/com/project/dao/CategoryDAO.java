@@ -1,4 +1,4 @@
-package com.project.client.dao;
+package com.project.dao;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.sql.PreparedStatement;

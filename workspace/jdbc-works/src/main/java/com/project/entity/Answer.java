@@ -1,7 +1,12 @@
 package com.project.entity;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+
+
 
 public class Answer {
+	
 	private int AnswerID;
 	private String Description;
 	private int Votes;

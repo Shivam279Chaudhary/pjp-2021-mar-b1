@@ -1,4 +1,4 @@
-package com.project.client.dao;
+package com.project.dao;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

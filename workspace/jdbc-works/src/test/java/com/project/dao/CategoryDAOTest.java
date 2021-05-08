@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.junit.jupiter.api.Test;
 
-import com.project.client.dao.CategoryDAO;
+import com.project.dao.CategoryDAO;
 import com.project.entity.Category;
 import com.project.interfaces.ICategoryDAO;
 

@@ -1,4 +1,4 @@
-package com.project.client.dao;
+package com.project.dao;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -6,11 +6,15 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.project.entity.Answer;
 import com.project.exception.InvalidID;
 import com.project.interfaces.IAnswerDAO;
 import com.project.utils.DbConnect;
 
+
+@Service
 public class AnswerDAO implements IAnswerDAO {
 
 	@Override
