@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import com.project.client.dao.CommentDAO;
 import com.project.entity.Comment;
 
 class CommentDAOTest {

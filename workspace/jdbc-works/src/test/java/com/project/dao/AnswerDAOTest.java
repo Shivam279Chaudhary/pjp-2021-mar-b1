@@ -7,7 +7,7 @@ import java.lang.reflect.Executable;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.project.dao.AnswerDAO;
+import com.project.client.dao.AnswerDAO;
 import com.project.entity.Answer;
 
 class AnswerDAOTest {
